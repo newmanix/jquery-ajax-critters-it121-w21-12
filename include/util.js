@@ -14,7 +14,7 @@
  */
  
 var viewRenderedSource = true; //set to JS true or false to trigger viewRender() function and add button to bottom of page - leave false for normal
-var errorHandling = "alert";   //set to alert, none or default to trigger window.onerror function for troubleshooting errors
+var errorHandling = "none";   //set to alert, none or default to trigger window.onerror function for troubleshooting errors
 //end config area---------------------------------------------------------
 
 if(viewRenderedSource)
